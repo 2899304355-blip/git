@@ -1,0 +1,41 @@
+# ===== 操作系统 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# ===== 编辑器和 IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 环境变量和密钥 =====
+.env
+.env.*
+!.env.example
+
+# ===== 日志和临时文件 =====
+*.log
+*.tmp
+*.cache
+__pycache__/
+*.py[cod]
+.cache/
+
+# ===== 依赖目录 =====
+node_modules/
+.venv/
+venv/
+env/
+
+# ===== 构建产物 =====
+dist/
+build/
+out/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
